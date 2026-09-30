@@ -1,0 +1,9 @@
+scenario,ml_tier,p_attack,hmac_valid,action,spkts,sbytes,rate,out_of_range
+"legit file, small (4 KB)",NORMAL,0.4112,True,ACCEPT,3,4251,1090.5,smean
+legit file (256 KB),NORMAL,0.4645,True,ACCEPT,182,271703,900.8,"sbytes,smean"
+"legit file, large (2 MB)",SUSPICIOUS,0.5012,True,ACCEPT_WITH_WARNING,1382,2071959,1973.6,"spkts,dpkts,sbytes,smean"
+ciphertext tampered in transit,NORMAL,0.4645,False,REJECT_TAMPERED,182,271703,906.6,"sbytes,smean"
+impostor sender (wrong key),NORMAL,0.4645,False,REJECT_TAMPERED,182,271703,886.5,"sbytes,smean"
+UDP flood 3000 x 44B,ATTACK,0.7587,-,QUARANTINE,3000,216000,18162.3,"spkts,sbytes"
+UDP flood 8000 x 64B,ATTACK,0.7473,-,QUARANTINE,8000,736000,67087.2,"spkts,sbytes"
+garbage TCP stream,NORMAL,0.3904,,REJECT_BAD_PROTOCOL,21,31092,1277.6,smean

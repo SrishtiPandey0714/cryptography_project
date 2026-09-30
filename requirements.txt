@@ -1,0 +1,14 @@
+# ---- ML layer: exact versions the model was trained with on Kaggle ----
+scikit-learn==1.6.1
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.16.3
+joblib==1.5.3
+matplotlib==3.10.0
+
+# ---- Crypto layer ----
+cryptography>=42.0
+
+# ---- Only needed to re-run the notebook locally (reads the UNSW parquet files) ----
+pyarrow>=14.0
+seaborn>=0.13

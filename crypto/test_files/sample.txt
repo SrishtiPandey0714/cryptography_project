@@ -1,0 +1,2 @@
+This is a confidential message between Alice and Bob.
+This file is being used to test our secure communication system.

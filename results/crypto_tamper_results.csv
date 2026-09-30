@@ -1,0 +1,9 @@
+attack,trials,detected,detection_rate
+ciphertext bit-flip,167,167,1.0
+nonce bit-flip,167,167,1.0
+HMAC tag bit-flip,167,167,1.0
+truncated ciphertext,167,167,1.0
+appended byte,166,166,1.0
+ciphertext replaced,166,166,1.0
+forged by wrong key (Eve),200,200,1.0
+replay of valid package (not tampering),200,0,0.0

@@ -1,0 +1,11 @@
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+*.out
+*.zip
+received/
+ml/data/*
+!ml/data/.gitkeep
+crypto/encrypted_package/
+crypto/test_files/decrypted.txt

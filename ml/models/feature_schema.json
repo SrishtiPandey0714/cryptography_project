@@ -1,0 +1,76 @@
+{
+  "numeric": [
+    "dur",
+    "spkts",
+    "dpkts",
+    "sbytes",
+    "dbytes",
+    "rate",
+    "sload",
+    "dload",
+    "sinpkt",
+    "dinpkt",
+    "smean",
+    "dmean"
+  ],
+  "categorical": [
+    "proto",
+    "state"
+  ],
+  "model": "RandomForest",
+  "dummy": false,
+  "t_suspicious": 0.46970665561613467,
+  "t_attack": 0.5233576115968639,
+  "train_ranges": {
+    "dur": [
+      1.9999999949504854e-06,
+      34.54032600402789
+    ],
+    "spkts": [
+      2.0,
+      348.0
+    ],
+    "dpkts": [
+      0.0,
+      674.0
+    ],
+    "sbytes": [
+      104.0,
+      138237.0
+    ],
+    "dbytes": [
+      0.0,
+      707082.0
+    ],
+    "rate": [
+      0.38913765698671343,
+      333333.3125
+    ],
+    "sload": [
+      192.89857742309573,
+      851200000.0
+    ],
+    "dload": [
+      0.0,
+      15751198.64
+    ],
+    "sinpkt": [
+      0.0010000000474974513,
+      4806.2405468748575
+    ],
+    "dinpkt": [
+      0.0,
+      551.9485046386695
+    ],
+    "smean": [
+      45.0,
+      1212.0
+    ],
+    "dmean": [
+      0.0,
+      1276.0
+    ]
+  },
+  "sklearn_version": "1.6.1",
+  "note": "src = connection initiator (client). bytes include IP+TCP headers."
+}
