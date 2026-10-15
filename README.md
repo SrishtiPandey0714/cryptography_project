@@ -1,13 +1,4 @@
 # Hybrid Secure Communication + ML Intrusion Detection System
-**Option 4 — Integrated Secure System Design**  
-*Department of Computer Science and Engineering, Amrita Vishwa Vidyapeetham*  
-*Course: 23CSE331 (Cryptography, Semester 5)*
-
-**Presented By:**  
-- Srishti Pandey : `AV.SC.U4CSE24323`  
-- S MohanaMaheswari : `AV.SC.U4CSE24314`  
-- Gurrala Deepika : `AV.SC.U4CSE24051`
-
 ---
 
 ## 1. System Highlights (Mapped to Presentation)
