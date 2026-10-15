@@ -9,6 +9,9 @@ matplotlib==3.10.0
 # ---- Crypto layer ----
 cryptography>=42.0
 
+# ---- Application & UI Dashboard layer ----
+streamlit>=1.40.0
+
 # ---- Only needed to re-run the notebook locally (reads the UNSW parquet files) ----
 pyarrow>=14.0
 seaborn>=0.13
